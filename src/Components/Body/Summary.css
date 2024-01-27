@@ -1,0 +1,32 @@
+.summary {
+    text-align: center;
+    width: 50%;
+    height: 7rem;
+    margin: auto;
+    margin-top: -6rem;
+    position: relative;
+    background-color: #494747;
+    color: white;
+    border-radius: 1px;
+    padding: 0.50rem;
+    box-shadow: 0 1px 18px 10px rgba(121, 84, 84, 0.25);
+  }
+  
+  .summary h2 {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .summary {
+      font-size: 14px;
+      height: 100%;
+      width: 70%;
+    }
+  
+    .summary h2 {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
